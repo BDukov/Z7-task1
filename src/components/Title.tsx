@@ -14,7 +14,7 @@ export default function Title() {
 
 <div className="flex justify-center mt-10">
     <div className="flex justify-center items-center w-[969px] h-[690px]">
-        <Image src="/image.png" alt="" width={969} height={690}/>
+        <Image src="/Image.png" alt="" width={969} height={690}/>
         
     </div>
 </div>
