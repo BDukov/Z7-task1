@@ -6,6 +6,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* @layer components {
+  .image{
+    @apply hover:scale-105 transition-transform duration-500 ease-in-out cursor-pointer
+  }
+} */
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
