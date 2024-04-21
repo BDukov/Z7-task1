@@ -24,7 +24,7 @@ function handleSubmit(e: { preventDefault: () => void; }) {
         
         <p className="text-[16px] md:text-[20px] lg:text-[20px] text-center leading-[170%] w-full lg:w-[684px] text-[#ffffff] mb-6 md:mb-10">Оставете вашият телефон и ние ще се свържем с вас, за да отговорим на всички въпроси</p>
         
-        <div className="relative flex items-center w-full lg:w-[684px] mt-4">
+        <div className="relative flex items-center w-full lg:w-[500px] mt-4">
             <div className="w-full lg:w-[427px] h-[56px] bg-white flex items-center justify-between pr-[10%] lg:pr-[137px] rounded-md">
                 <div className="w-full lg:w-[290px] h-[56px] flex items-center">
                     <FontAwesomeIcon icon={faEnvelope} className='text-[#CCC] text-center pl-4' />
@@ -38,7 +38,7 @@ function handleSubmit(e: { preventDefault: () => void; }) {
                 </div>
             </div>
             
-            <button className="absolute right-0 w-[30%] lg:w-[137px] h-[56px] bg-[#E7F874] text-[#083C2F] flex items-center justify-center text-[16px] rounded-md hover:bg-[#daf42b]"
+            <button className="absolute top-0 right-0 w-[30%] lg:w-[137px] h-[56px] bg-[#E7F874] text-[#083C2F] flex items-center justify-center text-[16px] rounded-md hover:bg-[#daf42b]"
                     onClick={handleSubmit}>
                 Изпрати
             </button>
